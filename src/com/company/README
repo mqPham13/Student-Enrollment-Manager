@@ -1,0 +1,36 @@
+
+
+
+Student name: Pham Minh Quang - s3740924
+
+    * Design Patterns used:
+
+        - Builder: is used to build Student objects
+
+        - Singleton: is used to create and maintain only 1 instance of the MemoryStudentEnrollmentManager class
+
+        - Visitor: is used to provide the ability to check for duplicated object (CheckDuplicated Visitor)
+                    from a list of objects of 3 different classes Student, Course and StudentEnrollment
+
+        - Command: is used to dispense command to CRUD StudentEnrollment objects and provide undo ability
+
+        - Chain of Responsibility: a chain of instances to print student enrollment data based on
+                                    the correct criteria (studentId/courseId/semester)
+
+        - Composite: MemoryStudentEnrollmentManager class holds a list of StudentEnrollment objects
+
+        - Iterator: is used to create the 2 classes StudentList and CourseList
+
+        - Facade: is used to implement getStudentId() and getCourseId() from Student and Course into StudentEnrollment
+
+        - Dependency Injection: is used to inject Student and Class into StudentEnrollment (constructor and setters)
+
+        - Factory: is used to create objects of class Course
+
+
+
+
+
+
+
+

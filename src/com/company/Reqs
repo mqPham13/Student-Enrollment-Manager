@@ -1,0 +1,39 @@
+Build a Java console app that manages student enrolment.
+
+1. Student class: id, name, birthdate
+
+2. Course class: id, name, number of credits
+
+3. StudentEnrollment class: student, course, semester (2018A, 2018B etc)
+
+This is an associate class. To keep all enrollments, there must be a list that keeps all enrollments.
+
+You are supposed to define an interface StudentEnrollmentManager to take care of this list. Refer to the lectures on class relationship and interface.
+
+4. Build functionality to enroll students in courses.
+
+This functionality will basically add/update/delete into StudentEnrollment list.
+
+There will be an academic assistant who will use this functionality to enroll students in courses.
+
+The system should ask id of students, course, and semester that students need to enroll (use Scanner(System.in))
+
+There must be functionality to update an enrollment, delete an enrollment as well as show all current enrollments and enrollment of a particular student.
+
+5. Print enrollment details for each student. Print enrollment for all students for 1 semester.
+
+6. When starting the program, sample students and courses should be populated. There is no need to build CRUD functionality for student and course
+
+7. Use at least 10 design patterns for this application. The following patterns must be used:
+
+- Singleton
+
+- Builder
+
+- Visitor
+
+- Chain of responsibilities
+
+- Command
+
+Write a Readme.txt file to describe all the patterns you use.
