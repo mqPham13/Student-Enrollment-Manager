@@ -1,4 +1,16 @@
 package com.company;
+import com.company.Course.Course;
+import com.company.Course.CourseFactory;
+import com.company.Enrollment.*;
+import com.company.Lists.CourseList;
+import com.company.Enrollment.Printer.*;
+import com.company.DuplicatedChecker.CheckDuplicatedVisitor;
+import com.company.DuplicatedChecker.Pair;
+import com.company.Misc.Utils;
+import com.company.Student.Student;
+import com.company.Student.StudentBuilder;
+import com.company.Lists.StudentList;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -144,7 +156,7 @@ public class Main {
                     if (toBeDeleted == null) break;
 
                     manager.setToBeCompared(toBeDeleted);
-                    boolean duplicated = ((Boolean)utilities.manager.invite(checkDuplicate).duplicated);;
+                    boolean duplicated = ((Boolean)manager.invite(checkDuplicate).duplicated);;
                     if (!duplicated) {
                         System.out.println("\nNo such enrollment was found! Nothing was deleted.\n");
                         break;
