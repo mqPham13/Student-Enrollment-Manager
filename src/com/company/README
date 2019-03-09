@@ -1,9 +1,35 @@
 
-
-
 Student name: Pham Minh Quang - s3740924
 
-    * Design Patterns used:
+    *** INSTRUCTIONS:
+
+        - To see all the students available in the system press 8 at the main menu
+
+        - To see all the courses available in the system press 9 at the main menu
+
+        - To see all the enrollments available in the system press 4 at the main menu
+
+        - To create a new enrollment, input student id, course id and semester
+
+        - To update an enrollment, input the original student id, course id and semester, then input new info as requested
+
+        - To delete an enrollment, input the original student id, course id and semester
+
+        - To see all enrollments of a student, press 5 at the main menu and input student id
+
+        - To see all enrollments of a semester, press 6 at the main menu and input semester
+
+        - To see all enrollments of a course, press 7 at the main menu and input course id
+
+        - To quit the program press 0 at the main menu
+
+
+    *** ASSUMPTIONS:
+
+        - Two enrollments are considered duplicated if their studentId, courseId and semester are identical
+
+
+    *** DESIGNED PATTERN USED:
 
         - Builder: is used to build Student objects
 
@@ -26,6 +52,8 @@ Student name: Pham Minh Quang - s3740924
         - Dependency Injection: is used to inject Student and Class into StudentEnrollment (constructor and setters)
 
         - Factory: is used to create objects of class Course
+
+
 
 
 

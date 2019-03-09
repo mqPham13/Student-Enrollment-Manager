@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f6d8d7a-b339-4e2e-9c9c-9d3400557a1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Chain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/CheckDuplicatedVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/CourseFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/CourseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/CreateNewEnrollmentCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/DeleteEnrollmentCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment1/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/MemoryStudentEnrollmentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/PrintAllEnrollments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/PrintCourseEnrollment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/PrintRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/PrintSemesterEnrollments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/PrintStudentEnrollment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/README" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment1/com/company/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/StudentBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/StudentEnrollment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/StudentEnrollmentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/StudentList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/UpdateEnrollmentCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment1/com/company/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Visitable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment1/com/company/Visitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Chain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Printer/Chain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CheckDuplicatedVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DuplicatedChecker/CheckDuplicatedVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Course/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Course/CourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CourseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lists/CourseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CreateNewEnrollmentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/CreateNewEnrollmentCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DeleteEnrollmentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/DeleteEnrollmentCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MemoryStudentEnrollmentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/MemoryStudentEnrollmentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MyIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lists/MyIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DuplicatedChecker/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PrintAllEnrollments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Printer/PrintAllEnrollments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PrintCourseEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Printer/PrintCourseEnrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PrintRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Printer/PrintRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PrintSemesterEnrollments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Printer/PrintSemesterEnrollments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PrintStudentEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/Printer/PrintStudentEnrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Student/StudentBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StudentEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/StudentEnrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StudentEnrollmentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/StudentEnrollmentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Lists/StudentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/UpdateEnrollmentCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Enrollment/UpdateEnrollmentCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Misc/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Visitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DuplicatedChecker/Visitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DuplicatedChecker/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/README" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,21 +15,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Misc/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-604">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="-151">
               <caret line="158" column="51" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/Visitable.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="429">
+              <caret line="29" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -110,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lists/CourseList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="60">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,9 +57,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Course/CourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Lists/StudentList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="45">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Enrollment/UpdateEnrollmentCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="60">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -218,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Course.java" />
         <option value="$PROJECT_DIR$/src/com/company/Student.java" />
         <option value="$PROJECT_DIR$/src/com/company/CourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/README" />
         <option value="$PROJECT_DIR$/src/com/company/Pair.java" />
         <option value="$PROJECT_DIR$/src/com/company/Enrollment/DeleteEnrollmentCommand.java" />
         <option value="$PROJECT_DIR$/src/com/company/Enrollment/Printer/PrintCourseEnrollment.java" />
@@ -228,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/com/company/DuplicatedChecker/Visitor.java" />
         <option value="$PROJECT_DIR$/src/com/company/Lists/StudentList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/README" />
       </list>
     </option>
   </component>
@@ -246,8 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,14 +207,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Course" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552032984550" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552042312618" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,8 +269,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25282714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2609047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32465753" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32465753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,9 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Student/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -423,13 +371,6 @@
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Course/CourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -523,33 +464,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Enrollment/UpdateEnrollmentCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Misc/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/CheckDuplicatedVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/Visitable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/CourseList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Course/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lists/StudentList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="45">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -564,30 +515,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Misc/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="158" column="51" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/Visitable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DuplicatedChecker/CheckDuplicatedVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Enrollment/UpdateEnrollmentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,13 +546,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Lists/CourseList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="-151">
+          <caret line="158" column="51" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="29" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="29" />
         </state>
       </provider>
     </entry>
