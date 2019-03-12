@@ -29,7 +29,7 @@ Student name: Pham Minh Quang - s3740924
         - Two enrollments are considered duplicated if their studentId, courseId and semester are identical
 
 
-    *** DESIGNED PATTERN USED:
+    *** DESIGNED PATTERNS USED:
 
         - Builder: is used to build Student objects
 

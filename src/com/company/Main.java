@@ -1,15 +1,15 @@
 package com.company;
-import com.company.Course.Course;
-import com.company.Course.CourseFactory;
-import com.company.Enrollment.*;
-import com.company.Lists.CourseList;
-import com.company.Enrollment.Printer.*;
-import com.company.DuplicatedChecker.CheckDuplicatedVisitor;
-import com.company.DuplicatedChecker.Pair;
-import com.company.Misc.Utils;
-import com.company.Student.Student;
-import com.company.Student.StudentBuilder;
-import com.company.Lists.StudentList;
+import com.company.course.Course;
+import com.company.course.CourseFactory;
+import com.company.enrollment.*;
+import com.company.list.CourseList;
+import com.company.enrollment.printer.*;
+import com.company.duplicatedchecker.CheckDuplicatedVisitor;
+import com.company.duplicatedchecker.Pair;
+import com.company.misc.Utils;
+import com.company.student.Student;
+import com.company.student.StudentBuilder;
+import com.company.list.StudentList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -71,7 +71,7 @@ public class Main {
         //menu loop
         boolean quit = false;
         while(!quit) {
-            System.out.println("\nWelcome to the Enrollment System!\n" +
+            System.out.println("\nWelcome to the enrollment System!\n" +
                                "1) Create an enrollment\n" +
                                "2) Update an enrollment\n" +
                                "3) Delete an enrollment\n" +
@@ -103,7 +103,7 @@ public class Main {
                     boolean duplicatedEnrollment = ((Boolean)manager.invite(checkDuplicate).duplicated);
 
                     if (duplicatedEnrollment) {
-                        System.out.println("\nEnrollment has already existed!");
+                        System.out.println("\nenrollment has already existed!");
                         break;
                     }
 
@@ -135,7 +135,7 @@ public class Main {
                         break;
                     }
 
-                    System.out.println("Enrollment found. Enter info to update: ");
+                    System.out.println("enrollment found. Enter info to update: ");
                     //Command Pattern
                     StudentEnrollment update = utilities.formNewEnrollment(studentList,courseList);
                     UpdateEnrollmentCommand updater = new UpdateEnrollmentCommand(update, indexOfDup);
