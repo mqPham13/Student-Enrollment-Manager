@@ -1,13 +1,11 @@
 package com.company.misc;
 import com.company.course.Course;
-import com.company.list.CourseList;
 import com.company.enrollment.MemoryStudentEnrollmentManager;
 import com.company.enrollment.StudentEnrollment;
 import com.company.duplicatedchecker.CheckDuplicatedVisitor;
 import com.company.duplicatedchecker.Pair;
 import com.company.student.Student;
 import com.company.list.StudentList;
-
 import java.util.Scanner;
 
 public class Utils {
@@ -31,7 +29,7 @@ public class Utils {
     }
 
 
-    public StudentEnrollment formNewEnrollment(StudentList studentList, CourseList courseList) {
+    public StudentEnrollment formNewEnrollment(StudentList studentList, Course course1) {
         //get student from student id
         System.out.print("Input student id: ");
         String stuId = getInput();
@@ -46,12 +44,11 @@ public class Utils {
         //get course from course name
         System.out.print("Input course id: ");
         String courseId = getInput();
-        courseList.setToBeCompared(courseId);
-        Pair resultCourse = courseList.invite(checkDuplicate);
+        course1.setToBeCompared(courseId);
+        Pair resultCourse = course1.invite(checkDuplicate);
         if (!((Boolean)resultCourse.duplicated)) return null;
-
         int indexCourse = (Integer)resultCourse.index;
-        Course courseToEnroll = courseList.getCourses().get(indexCourse);
+        Course courseToEnroll = course1.getCourseList().get(indexCourse);
 
         //get semester
         System.out.print("Input semester: ");

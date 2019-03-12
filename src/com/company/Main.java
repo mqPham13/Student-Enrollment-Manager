@@ -2,7 +2,6 @@ package com.company;
 import com.company.course.Course;
 import com.company.course.CourseFactory;
 import com.company.enrollment.*;
-import com.company.list.CourseList;
 import com.company.enrollment.printer.*;
 import com.company.duplicatedchecker.CheckDuplicatedVisitor;
 import com.company.duplicatedchecker.Pair;
@@ -46,11 +45,10 @@ public class Main {
         Course course3 = CourseFactory.createCourse("COSC3333", "BITS", 12);
         Course course4 = CourseFactory.createCourse("COSC4444", "P1", 12);
 
-        List<Course> courses = new ArrayList<>();
-        courses.addAll(Arrays.asList(course1,course2,course3,course4));
-
-        CourseList courseList = new CourseList();
-        courseList.setCourses(courses);
+        course1.addCourse(course1);
+        course1.addCourse(course2);
+        course1.addCourse(course3);
+        course1.addCourse(course4);
 
         //Chain Of Responsibility Pattern
         Chain link1 = new PrintAllEnrollments();
@@ -95,7 +93,7 @@ public class Main {
                 case "1":
                     System.out.println("Create new enrollment:\n");
                     //create enrollment
-                    StudentEnrollment newEnrollment = utilities.formNewEnrollment(studentList ,courseList);
+                    StudentEnrollment newEnrollment = utilities.formNewEnrollment(studentList , course1);
                     if (newEnrollment == null) break;
 
                     //check for duplicated enrollment
@@ -121,7 +119,7 @@ public class Main {
                     if (!enrollmentExists) break;
 
                     System.out.println("Update an enrollment:\n");
-                    StudentEnrollment toBeUpdated = utilities.formNewEnrollment(studentList, courseList);
+                    StudentEnrollment toBeUpdated = utilities.formNewEnrollment(studentList, course1);
                     if (toBeUpdated == null) break;
 
                     //check if needed enrollment exists
@@ -137,7 +135,7 @@ public class Main {
 
                     System.out.println("enrollment found. Enter info to update: ");
                     //Command Pattern
-                    StudentEnrollment update = utilities.formNewEnrollment(studentList,courseList);
+                    StudentEnrollment update = utilities.formNewEnrollment(studentList, course1);
                     UpdateEnrollmentCommand updater = new UpdateEnrollmentCommand(update, indexOfDup);
                     updater.execute();
                     String undo1 = utilities.getUndo();
@@ -152,7 +150,7 @@ public class Main {
                     if (!enrollmentExists1) break;
 
                     System.out.println("Delete an enrollment:\n");
-                    StudentEnrollment toBeDeleted = utilities.formNewEnrollment(studentList,courseList);
+                    StudentEnrollment toBeDeleted = utilities.formNewEnrollment(studentList, course1);
                     if (toBeDeleted == null) break;
 
                     manager.setToBeCompared(toBeDeleted);
@@ -211,7 +209,7 @@ public class Main {
                     break;
 
                 case "9":
-                    courseList.showAllCourses();
+                    course1.getAllCourses();
                     break;
 
                 case "0":

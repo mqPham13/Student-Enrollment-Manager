@@ -8,7 +8,6 @@ import java.util.List;
 
 public class MemoryStudentEnrollmentManager implements StudentEnrollmentManager, Visitable {
 
-    //Composite Pattern
     private List<StudentEnrollment> studentEnrollmentList = new ArrayList<>();
     private StudentEnrollment toBeCompared;
 

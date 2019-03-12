@@ -24,6 +24,10 @@ Student name: Pham Minh Quang - s3740924
         - To quit the program press 0 at the main menu
 
 
+    *** NOTICE: Please noted that any changes to the enrollment will be prompted with n undo option,
+                if you want to undo input "y", else input "n"
+
+
     *** ASSUMPTIONS:
 
         - Two enrollments are considered duplicated if their studentId, courseId and semester are identical
@@ -43,9 +47,9 @@ Student name: Pham Minh Quang - s3740924
         - Chain of Responsibility: a chain of instances to print student enrollment data based on
                                     the correct criteria (studentId/courseId/semester)
 
-        - Composite: MemoryStudentEnrollmentManager class holds a list of StudentEnrollment objects
+        - Composite: the Course class holds an array list of Course itself
 
-        - Iterator: is used to create the 2 classes StudentList and CourseList
+        - Iterator: is used to create the class StudentList
 
         - Facade: is used to implement getStudentId() and getCourseId() from Student and Course into StudentEnrollment
 

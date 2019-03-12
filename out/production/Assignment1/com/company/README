@@ -43,7 +43,8 @@ Student name: Pham Minh Quang - s3740924
         - Chain of Responsibility: a chain of instances to print student enrollment data based on
                                     the correct criteria (studentId/courseId/semester)
 
-        - Composite: MemoryStudentEnrollmentManager class holds a list of StudentEnrollment objects
+        - Composite: MemoryStudentEnrollmentManager class holds a list of StudentEnrollment objects, StudentEnrollment
+                    in turn holds a Student and a Course
 
         - Iterator: is used to create the 2 classes StudentList and CourseList
 

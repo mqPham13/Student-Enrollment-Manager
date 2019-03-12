@@ -1,6 +1,5 @@
 package com.company.duplicatedchecker;
 import com.company.course.Course;
-import com.company.list.CourseList;
 import com.company.enrollment.MemoryStudentEnrollmentManager;
 import com.company.enrollment.StudentEnrollment;
 import com.company.student.Student;
@@ -28,12 +27,10 @@ public class CheckDuplicatedVisitor implements Visitor {
     }
 
     @Override
-    public Pair visit(CourseList courseList, String courseId) {
-        while (courseList.hasNext()) {
-            Course currentCourse = courseList.next();
-            if (currentCourse.getId().equals(courseId)) {
-                Pair found = new Pair(true, courseList.getCourses().indexOf(currentCourse));
-                courseList.reset();
+    public Pair visit(List<Course> courseList, String courseId) {
+        for (Course course : courseList){
+            if (course.getId().equals(courseId)){
+                Pair found = new Pair(true, courseList.indexOf(course));
                 return found;
             }
         }
