@@ -1,6 +1,6 @@
-# SADI-A1
+# STUDENT ENROLLMENT MANAGER
 
-## INSTRUCTIONS:
+### Instructions:
 
         - To see all the students available in the system press 8 at the main menu
 
@@ -27,12 +27,12 @@
                 if you want to undo input "y", else input "n"
 
 
-## ASSUMPTIONS:
+### Assumptions:
 
         - Two enrollments are considered duplicated if their studentId, courseId and semester are identical
 
 
-## DESIGNED PATTERNS USED:
+### Design patterns used:
 
         - Builder: is used to build Student objects
 
